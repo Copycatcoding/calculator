@@ -23,7 +23,7 @@ margin-top: 10%;
 }
 /* this is the styling of h1 tag inside the calculator  */
 .calculator>h1{
-    color: aliceblue;
+    color: rgb(255, 0, 0);
     justify-content: center;
     align-items: center;
     margin:20px 0px;
@@ -33,7 +33,7 @@ margin-top: 10%;
 
 /* this is the styling for the display  */
 .display{
-    background-color:rgb(53, 112, 74);
+    background-color:rgb(204, 0, 255);
     height: 90px;
     width: 300px;
        
