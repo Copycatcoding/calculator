@@ -1,0 +1,110 @@
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* this is the styling of the calculator div  */
+.calculator{
+    background-color: rgb(18, 25, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 20px;
+margin-top: 10%;
+}
+/* this is the styling of h1 tag inside the calculator  */
+.calculator>h1{
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin:20px 0px;
+    
+    }
+
+
+/* this is the styling for the display  */
+.display{
+    background-color:rgb(53, 112, 74);
+    height: 90px;
+    width: 300px;
+       
+}
+/* this is the styling for the input taking */
+#input_take{
+   
+    height: 35px;
+    width:300px;
+    border: none;
+   font-size: 25px;
+   background-color:rgb(53, 112, 74);
+   font-family: cursive;
+   margin-bottom: 7px;
+   text-decoration: solids;
+ 
+}
+.display>input:focus{
+
+    outline:none;
+}
+
+
+
+
+/* this is the styling of the content inside the display  */
+.display>#result{
+   
+    text-align: right;
+    margin-right: 2px;
+    overflow: hidden;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+/* this is the styling of the first row  */
+.num-keys{
+    background-color: rgb(18, 25, 38);
+    padding: 10px;
+    border-radius: 20px;
+    margin:10px 0px;
+    font-size: 50px;
+}
+/* this is  the styling of the individula keys  */
+#ac{
+    background-color: rgb(4, 172, 224);
+}
+/* this is the styling of the button with class operators */
+.operators{
+    background-color: rgb(232, 99, 11);
+
+}
+/* this is the styling of the bottom right keys of last row  */
+.bottom-keys{
+    background-color: rgb(178, 180, 182);
+}
+/* this is the styling of the point  */
+
+
+
+button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+   margin: 5px 2px;
+   font-size:32px;
+   justify-content: center;
+   align-items: center;
+}
+button:hover{
+    border-radius:30% ;
+}

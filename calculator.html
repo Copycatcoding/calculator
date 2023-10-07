@@ -1,0 +1,63 @@
+<!-- this is the firstday of string in javascript  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <!-- this is the div for calculator  -->
+    <div class="calculator">
+        <h1>CAlCULATOR</h1>
+        <!-- this is the div for dispaly  -->
+        <div class="display">
+            <input type="text" id="input_take" >
+            <h1 id="result"> </h1>
+        </div>
+        <!-- this is the div for numbber and keys  -->
+        <div class="num-keys">
+            <!-- this is the first row of the calculator  -->
+            <div class="first-row">
+                <button id="ac"onclick="ac()">AC</button>
+                <button id="delete" class="bottom-keys"onclick="del()">&#9249;</button>
+                <button  id = "close-bracets" class="operators" onclick="append('**2')" >x²</button>
+                <button id="divide" class="operators"onclick="append('/')">÷</button>
+            </div>
+            <!-- this is the div for second row oonclick="append()"f the calculator  -->
+            <div class="second-row">
+                <button id="seven" onclick="append('7')">7</button>
+                <button id="eight"onclick="append('8')" >8</button>
+                <button id="nine"onclick="append('9')">9</button>
+                <button  id= "multiply"class="operators"onclick="append('*')">×</button>
+            </div>
+            <!-- this is the third row of the calculator keys and numbers   -->
+            <div class="third-row">
+                <button id="four"onclick="append('4')">4</button>
+                <button id="five"onclick="append('5')">5</button>
+                <button id="six"onclick="append('6')">6</button>
+                <button id="subtract" class="operators"onclick="append('-')">−</button>
+            </div>
+            <!-- this is the fourth row of the num and calculator  -->
+            <div class="fourth-row">
+                <button id="one" onclick="append('1')">1</button>
+                <button id="two" onclick="append('2')">2</button>
+                <button id="three" onclick="append('3')">3</button>
+                <button  id="add"  class="operators"onclick="append('+')">+</button>
+            </div>
+            <!-- this is the fifth row of the number and keys  -->
+            <div class="fifth-row">
+                <button  id="zero" class="bottom-keys"onclick="append('0')">0</button>
+                <button id="square" class="operators" onclick="append('00') " >00</button> 
+                <button  id="dot"onclick="append('.')">•</button>
+                <button id="equal-to" class="operators"onclick="calculate()">=</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="calculator.js"></script>
+   
+</body>
+</html>
